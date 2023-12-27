@@ -1,0 +1,50 @@
+body {
+    background-color: #323232;
+    font-family: "Open Sans";
+    color: #efefef;
+    text-align: center;
+    margin: 0;
+}
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 100%;
+    max-width: 450px;
+}
+.logo {
+    border-radius: 50%;
+    max-width: 180px;
+}
+.titulo {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin: 2rem 0;
+}
+.lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.botao {
+    padding: 15px;
+    font-size: 1.5rem;
+    width: 100%;
+    border: 0;
+    border-radius: .4rem;
+    background-color: #d42827;
+    color: white;
+    transition: all 0.3s ease;
+}
+.botao:hover {
+    background-color: #b40807;
+}
+#botaoFacebook {
+    background-color: #0185d1;
+}
+#botaoFacebook:hover {
+    background-color: #0165b1;
+}
